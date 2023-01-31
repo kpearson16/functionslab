@@ -1,14 +1,16 @@
 /*Define a function, as a function expression, maxOfThreethat takes three numbers as arguments and returns the largest of them. Again, the Math.max method is not allowed.*/
 
-const maxOfThree =(x,y,z) =>{
-if(x>=y && x>=z){
-    return x;
-}else if (y<=z && y>=x ){
-return z;
 
-}
-}
-console.log(maxOfThree(1,2,9,))
+const maxOfThree =(x,y,z) =>{
+  if(x>=y && x>=z){
+      console.log(x)
+  }else if (y>=x && y>=z){
+  console.log(y);
+  }else{
+    console.log(z)
+  }
+  }
+  maxOfThree(1,222,999,)
 
 //Define a function, as a function declaration, isCharAVowelthat takes a character as an argument and returns true if it is a vowel, false otherwise.*/
 const isCharAVowel=(char)=>{
